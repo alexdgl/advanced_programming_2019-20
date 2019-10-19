@@ -1,0 +1,7 @@
+La prima pagina deve sempre riportare chiaramente lautore del testo, il titolo del lavoro ed
+le eventuali informazioni aggiuntive legate allambito nel quale il documento e stato scritto.
+Per esempio, una relazione tecnica su una visita didattica presso un’azienda agricola
+riporterà: autore, titolo, corso di laurea, materia d’esame, data della visita e nome del
+docente. Queste informazioni possono essere in testa alla prima pagina (per testi brevi, 2-
+3 pagine), oppure (per testi più lunghi) essere riportate da sole, su una prima pagina di
+intestazione; in questo caso il testo vero e proprio inizia nella seconda pagina.

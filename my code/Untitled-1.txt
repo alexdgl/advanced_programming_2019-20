@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+unsigned int factorial(unsigned int n){
+    unsigned int ret{1};
+    while (n>1){
+        ret=*n;
+        n--;
+    }
+    return ret;
+}
+int main() 
+{
+unsigned int f5{factorial(5)};
+auto f6=factorial(6); //auto fa decidere al compilatore il tipo di variabile di ritorno
+std::cout<<"factorial of 5 is"<< f5 <<'\n'<<;
+}
+

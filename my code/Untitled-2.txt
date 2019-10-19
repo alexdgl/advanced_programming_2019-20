@@ -1,0 +1,14 @@
+//dichiarazione di funzioni:
+int dwim(const int a, const int b) //funzione di nome dwim che ritorna un int e ha 2 variabili int
+double dwim(const double a, const double b)
+//posso chiamare due funzioni con stesso nome e c++ capirà quando la chiamo quale usare in base al tipo di parametri in input
+//la dichirazione e la definizione delle funzioni può essere fatta anche a distanza all'interno del codice
+
+template <typename T>   //template capisce in automatico il tipo dei parametri
+T dwim(const T a, const T b); {  //uso solo T perchè son tutti dello stesso tipo(int), se ci sono tipi diversi nella stessa funzione devo dichiarare diversi valori a template
+
+    return a+b;
+}
+
+std::cout<<dwim(a,b)<<"\n"<<;
+//ogni funzione è definita in un livello di stack della ram. le variabili sono definite solo li dentro,  se all'interno del main chiamo una funzione le variabili in ingresso e uscita del codice che definisce la funzione appartengono solo allo stack di memoria della funzione

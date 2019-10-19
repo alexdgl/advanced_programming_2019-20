@@ -1,0 +1,6 @@
+g++ file.cc -std=c++11  //ci vuole un compilatore "aggiornato"?
+
+the bash program uniq, just compare 2 consecutive lines
+
+uniq -c  poi scrivo varie righe di stringhe e conta le consecutive
+?uniq -c <test

@@ -1,0 +1,3 @@
+objects in the stack are automatically deleted when they go out of scope, not those on the heap
+the new operator stores the value of the object, no name. (and stays in the heap) and in order to use them we need to use pointers.
+    

@@ -1,0 +1,54 @@
+int main() {}
+
+definito funzione di nome main che non accetta parametri(parentesi vuote) . ritorna un integer
+nel main il "return 0" è incluso di default(solo nel main)
+
+
+linux default compiler=g++
+
+g++ nome.cc compila il file
+./nomefile.out  esegue
+
+
+il ritorno di 0 indica che non ci sono stati errori nel programma
+
+echo $?  
+0           //shell bash di linux da il valore di ritorno alla variabile chiamata "?"
+
+-------------------
+#include <iostream>
+int main() {
+
+std::cout<< "Hello World!\n" << ;
+
+}
+
+SRC-->preprocessor->assembly file code->object file(binary)     //processo di compilazione
+
+
+object->portion of memory 
+variable->a named object
+
+const variable //gli dico che non modificherò il valore nella variabile, e C doublecheckerà che rimanga K
+
+
+#include <iostream>
+int main() {
+for (int i=0 i<10 i++) //se ha un solo comando-sola linea, non servono le {}
+
+while vs do while     //while prima valuta la condizione e poi controlla se verificata do while la esegue la prima volta anche se falsa
+
+
+non usare "==" or "!x" con numeri non interi(alcuni non hanno rappresentazione esatta)
+
+
+pointer
+
+
+int &ref=d;   ref e d linkano alla stessa memoria
+
+
+
+
+int *a puntatore
+int &a  referenza

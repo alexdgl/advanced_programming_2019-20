@@ -11,12 +11,12 @@ int main() {
 
   char** ppc;
 
-  int* ap[7];
+  int* ap[7]; //an array where each element is a pointer to an integer
 
-  void* pv{pi};
+  void* pv{pi}; //special type of pointer, for when it doesn't now the size of the type. we can give him any type of pointer as value
   // *pv; // we cannot dereference void*
   // ++pv; // we cannot increment. Why?
-  int* pi2{static_cast<int*>(pv)};
+  int* pi2{static_cast<int*>(pv)}; //a cast is a conversion between two types
 
   pv = ppc;
   pv = ap;
@@ -62,12 +62,11 @@ int main() {
   else
     std::cout << "different\n";
 
-  int (*fp)(const char*);
+  int (*fp)(const char*); //a pointer to a function
   fp = func1;
 
   fp("hello");
-
-  fp = &func2;
+  fp = &func2; //sempre un pointer a una funzione
   fp("world");
 
   // fp = func3; // error: wrong signature
@@ -75,7 +74,7 @@ int main() {
 
   xx("auto");
 
-  decltype(&func3) x = func3;
+  decltype(&func3) x = func3; 
   x("decltype");
 
   return 0;

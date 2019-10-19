@@ -9,7 +9,7 @@ int main() {
   std::array<int, 4> b{a};  // I can copy element-wise from another std::array
                             // this is not possible with plain built-in arrays
   b = a;
-  for (auto x : a)
+  for (auto x : a) //stampa in automatico tutti gli elementi di a
     std::cout << x << " ";
   std::cout << std::endl;
 
@@ -33,7 +33,7 @@ int main() {
   for (auto i = 0u; i < a.size(); ++i)
     std::cout << "a[" << i << "] = " << a[i] << std::endl;
 
-  b.at(90);  // bound checking at run-time
+  b.at(90);  // bound checking at run-time, controlla se b ha il 90esimo elemento
 
   return 0;
 }

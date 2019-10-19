@@ -1,0 +1,37 @@
+
+file(earth.txt) untracked
+con comando git add lo rendo tracked
+3
+repository=collection of commits done
+
+
+the working tree is clen
+ if all the files are unmodified
+
+-git diff  mostra le modifiche fatte ai file nella directory
+
+?staging area
+
+git add earth.txt //aggiunge il file alla staging area
+
+branch is a "pointer" to a commit
+git add file porta alla commit area
+
+?staged/unstaged
+
+
+download gitrepository from the cloud: cd /tmp/
+git clone http::url
+git fetch origin(cartella?)
+
+git remote add myfork url
+
+upload: git push myfork master
+
+
+FDSsfsdfs342342ffsdfsdf
+
+?git push
+
+
+
